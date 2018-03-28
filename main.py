@@ -30,7 +30,7 @@ def FtoC (F):#F for fahrenheit
 
 
 #this variable wil decide weather the conversion is CtoF, or FtoC
-CorF = int(input('input 1 for celsius to fahrenheit, or 2 for  fahrenheit  to celsius: '))
+CorF = int(input('input 1 for celsius to fahrenheit, or 2 for fahrenheit to celsius: '))
 
 #this is the code that will print the answer depending on the selected value of CorF
 while CorF != 0:
