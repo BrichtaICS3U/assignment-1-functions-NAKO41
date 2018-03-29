@@ -19,7 +19,7 @@ def CtoF (C):#C for celsius
 
 #2 coversion of fahrenheit to celsius
 def FtoC (F):#F for fahrenheit
-    """the pupose of this function is to convert F degreees to c degrees
+    """the pupose of this function is to convert F degreees to C degrees
     """
 
     if F <= -459.4: #this will determine if the temperature is below or above absolute zer0
@@ -56,7 +56,7 @@ while CorF != 0:
       print("sorry, that's an improper input.")
 
 
-  CorF = int(input("wanna try again, same inputs from before. or type 0 to stop the code: "))#this bit of code checks to if the inputer wants to run everything again
+  CorF = int(input("wanna try again, same inputs from before. or input 0 to kill the code: "))#this bit of code checks to if the user wants to run a conversion again or not
                     
 
 
